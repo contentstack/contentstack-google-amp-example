@@ -1,7 +1,7 @@
 // Config Variables
 
 module.exports = {
-  baseUrlContentStack: 'https://cdn.contentstack.io/v3', //cdn baseurl
+  baseUrlContentStack: 'https://cdn.contentstack.io/v3', //cdn region url
   port: 4000,
   apiKey: '', //your apikey  
   accessToken: '', // delivery token 
