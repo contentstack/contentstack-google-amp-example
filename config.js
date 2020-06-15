@@ -1,21 +1,21 @@
 // Config Variables
 
 module.exports = {
-  baseUrlContentStack: 'https://cdn.contentstack.io/v3', //cdn region url
+  baseUrlContentStack: 'https://cdn.contentstack.io/v3', // cdn region url
   port: 4000,
-  apiKey: '', //your apikey  
-  accessToken: '', // delivery token 
-  env: '', //publishing environment
+  apiKey: '', // your apikey
+  accessToken: '', // delivery token
+  env: '', // publishing environment
   headerSection: {
-    headerContentTypeId: '', //header content-type uid
+    headerContentTypeId: '', // header content-type uid
   },
   footerSection: {
-    footerContentTypeId: '', //footer content-type uid
+    footerContentTypeId: '', // footer content-type uid
   },
   homeSection: {
-    homeContentTypeId: '', //home content-type uid
+    homeContentTypeId: '', // home content-type uid
   },
   expressBlogSection: {
-    blogContentTypeId: '', //blogs content-type uid
+    blogContentTypeId: '', // blogs content-type uid
   },
 };

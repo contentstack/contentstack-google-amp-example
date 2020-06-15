@@ -1,7 +1,7 @@
 {
   "name": "amp-express-app",
   "version": "1.0.0",
-  "description": "This is a contentstack AMP powered website",
+  "description": "This code is for contentstack AMP powered website",
   "main": "app.js",
   "engines": {
     "node": "12.x"
@@ -14,7 +14,7 @@
     "type": "git",
     "url": ""
   },
-  "author": "Contentstack",
+  "author": "contentstack",
   "license": "MIT",
   "dependencies": {
     "async": "^3.2.0",

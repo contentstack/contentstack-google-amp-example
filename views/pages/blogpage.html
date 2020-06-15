@@ -16,7 +16,7 @@
           font-family: Arial, Helvetica, sans-serif;
           margin-top: 100px;
         ">
-        {{content.heading}}
+        {{blogData.heading}}
       </h2>
       <div style="
           display: block;
@@ -30,7 +30,7 @@
           flex-wrap: wrap;
           text-align: center;
         ">
-        <amp-img width="30vw" height="50vh" style="flex-basis: 0; flex-grow: 1;" src="{{content.image.url}}">
+        <amp-img width="30vw" height="50vh" style="flex-basis: 0; flex-grow: 1;" src="{{blogData.image.url}}">
         </amp-img>
       </div>
       <br />
@@ -41,7 +41,7 @@
       margin: auto;
       width: 100%;">
         <p>
-          {{content.body}}
+          {{blogData.body}}
         </p>
       </div>
     </div>
