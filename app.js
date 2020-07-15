@@ -6,7 +6,7 @@ const app = require('express')();
 const nunjucks = require('nunjucks');
 const configVars = require('./config');
 
-const PORT = configVars.port || 5000
+const PORT = configVars.port || 5000;
 
 app.set('view engine', 'html');
 

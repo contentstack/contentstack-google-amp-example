@@ -2,40 +2,35 @@
 
 {% extends "pages/index.html" %} {% block content %}
 
+<!-- Below is the tempate for your home-page where the variable "home" is fed to the tag <h1>, <p>, <amp-youtube> etc -->
+
 <div class="container pt-3" style="text-align: center;">
   <h1 style="margin-top: 100px;">{{home.entries[0].heading}}</h1>
   <p style="margin-left: 25px; margin-right: 25px;">
     {{home.entries[0].description}}
   </p>
-  <br>
-  <div
-    class="outer"
+  <br />
+  <!-- For your amp-video tag directly provide video id of your youtube video eg "RN-uy4cWjoc" -->
+  <amp-youtube
     style="
       display: block;
       margin: auto;
       width: 500px;
-      height: 320px;
+      height: 520px;
       max-width: 100%;
       height: auto;
       display: flex;
       flex-wrap: wrap;
       align-items: center;
     "
+    layout="responsive"
+    data-videoid="RN-uy4cWjoc"
+    width="1200"
+    height="900"
+    layout="responsive"
   >
-    <amp-img
-      class="inner"
-      layout="responsive"
-      src="{{home.entries[0].image.url}}"
-      width="1400"
-      height="1070"
-      style="
-        flex-basis: 0;
-        flex-grow: 1;
-      "
-    >
-    </amp-img>
-  </div>
-  <br><br><br>
+  </amp-youtube>
+  <br /><br /><br />
 </div>
 <br />
 {% endblock %}

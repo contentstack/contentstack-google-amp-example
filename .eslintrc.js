@@ -1,3 +1,5 @@
+// eslint rules
+
 module.exports = {
   extends: 'airbnb-base',
   rules: {
@@ -6,6 +8,8 @@ module.exports = {
     'no-console': 'off',
     'prefer-destructuring': 'off',
     'global-require': 'off',
-
+    'consistent-return': 'off',
+    'no-underscore-dangle': 'off',
+    'max-len': 'off',
   },
 };

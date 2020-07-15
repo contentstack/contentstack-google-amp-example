@@ -1,5 +1,5 @@
 {
-  "name": "amp-express-app",
+  "name": "google-amp-express-app",
   "version": "1.0.0",
   "description": "This code is for contentstack AMP powered website",
   "main": "app.js",
@@ -14,7 +14,7 @@
     "type": "git",
     "url": ""
   },
-  "author": "contentstack",
+  "author": "Contentstack",
   "license": "MIT",
   "dependencies": {
     "async": "^3.2.0",

@@ -8,6 +8,12 @@
       custom-element="amp-live-list"
       src="https://cdn.ampproject.org/v0/amp-live-list-0.1.js"
     ></script>
+    <script
+      async
+      custom-element="amp-youtube"
+      src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"
+    ></script>
+
     <style amp-boilerplate>
       body {
         -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
@@ -246,7 +252,6 @@
       .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
         top: 0;
       }
-     
 
       section img {
         border: 1px solid white;
@@ -314,11 +319,9 @@
 
   <body>
     {% include "pages/header.html" %} 
-    
-    {% block content %} 
-    
-    {% endblock %}
-    
+      {% block content %} 
+      
+      {% endblock %}
     {%include "pages/footer.html" %}
   </body>
 </html>
