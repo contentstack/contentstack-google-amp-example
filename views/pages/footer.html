@@ -1,12 +1,15 @@
 <!-- Footer html -->
 
-<div class="footer-copyright" style="
-  text-align: center;
-  background: #41424b;
-  padding: 2px 0;
-  margin: 20px 0 0;
-">
-{% for items in footer.entries %}
+<div
+  class="footer-copyright"
+  style="
+    text-align: center;
+    background: #41424b;
+    padding: 2px 0;
+    margin: 20px 0 0;
+  "
+>
+  {% for items in footer.entries %}
   <span
     ><p style="color: rgb(255, 255, 255);">
       {{items.footer}}
