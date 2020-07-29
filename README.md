@@ -16,4 +16,4 @@ We have created an in-depth tutorial on demonstrating how you can create a Conte
 
 Read Contentstack [docs](https://www.contentstack.com/docs/)
 
-Read Guide [Contentstack Google AMP Example Guide]()
+Read Guide [Contentstack Google AMP Example Guide](https://www.contentstack.com/docs/developers/how-to-guides/implementing-google-amp-on-contentstack-powered-websites/)
