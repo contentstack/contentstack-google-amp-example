@@ -6,7 +6,7 @@ Contentstack is a headless CMS with an API-first approach that puts content at t
 
 ## Tutorial
 
-We have created an in-depth tutorial on the demonstrating how you can create a Contentstack AMP powered express app. Below are some screenhots
+We have created an in-depth tutorial on demonstrating how you can create a Contentstack AMP powered express app. Below are some screenshots
 
 ![deskyop view blogs](https://user-images.githubusercontent.com/29656920/84242252-3385d980-ab1e-11ea-82f3-0567822c540c.png)
 
