@@ -13,12 +13,13 @@
         margin-left: 10px;
         border-bottom-width: 5px;
         margin-bottom: 5px;
+        float: left;
       "
     ></amp-img
   ></a>
   <input class="menu-btn" type="checkbox" id="menu-btn" />
   <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-  <ul class="menu">
+  <ul class="menu" style="float: left;">
     {% for menu in header.entries[0].navigation_section.navigation_bar %}
     <li><a href="{{menu.link}}">{{menu.title}}</a></li>
     {% endfor %}
