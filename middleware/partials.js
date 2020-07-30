@@ -10,7 +10,6 @@ module.exports = (req, res, next) => {
   async.parallel(
     [
       // Here in this function we get the data for header
-      
       (callback) => {
         utils
           .getData(
