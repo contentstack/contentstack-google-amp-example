@@ -1,5 +1,3 @@
-// Config Variables
-
 module.exports = {
   baseUrlContentStack: 'https://cdn.contentstack.io/v3',
   port: 4000,
@@ -17,5 +15,6 @@ module.exports = {
   },
   expressBlogSection: {
     blogContentTypeId: '', // mention the blogs content-type uid
+    blogPageHeadingId: '', // mention the blogPageHeading content-type uid
   },
 };

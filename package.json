@@ -1,7 +1,7 @@
 {
   "name": "google-amp-express-app",
   "version": "1.0.0",
-  "description": "This code is for contentstack AMP powered website",
+  "description": "In this guide we'll learn how to build a Google AMP website powered by Contentstack",
   "main": "app.js",
   "engines": {
     "node": "12.x"
