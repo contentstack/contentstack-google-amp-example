@@ -5,21 +5,23 @@
 const express = require('express');
 
 const router = express.Router();
-
+const Contentstack = require('contentstack');
 const configVars = require('../config');
-const utils = require('../utils');
 
-// Here in this callback function we get the data for your home-page & store it in the variable "home"
+// Initialize stack
+
+const Stack = Contentstack.Stack(configVars.apiKey, configVars.accessToken, configVars.env);
+
+// Below method will fetch & render home page
 
 router.get('/', (req, res) => {
-  utils
-    .getData(
-      `${configVars.baseUrlContentStack}/content_types/${configVars.homeSection.homeContentTypeId}/entries?environment=${configVars.env}`,
-    )
-    .then((data) => {
-      res.render('pages/home.html', { home: data.data });
-    })
-    .catch((err) => {
+  const Query = Stack.ContentType(configVars.contentTypeUid.homeContentTypeUid).Query();
+  Query
+    .toJSON()
+    .find()
+    .then((result) => {
+      res.render('pages/home.html', { homeData: result[0][0] });
+    }).catch((err) => {
       console.log(err);
     });
 });

@@ -3,5 +3,6 @@
 module.exports = (app) => {
   app.use('/', require('../middleware'));
   app.use('/', require('./home'));
-  app.use('/blog', require('./blogs'));
+  app.use('/blogs', require('./blog-list'));
+  app.use('/blogs/:blog', require('./blog-page'));
 };
