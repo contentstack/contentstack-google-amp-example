@@ -1,5 +1,5 @@
 {
-  "name": "google-amp-express-app",
+  "name": "contentstack-google-amp-express-app",
   "version": "1.0.0",
   "description": "In this guide we'll learn how to build a Google AMP website powered by Contentstack",
   "main": "app.js",
