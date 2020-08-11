@@ -1,0 +1,47 @@
+<!-- Blogs list page html -->
+
+{% extends "pages/index.html" %} {% block content %}
+
+<section class="header11 cid-qMPCctt0uS mbr-fullscreen" id="header11-0"
+  style="background-image: url({{blogData.banner_section[0].banner_content.banner_gourp.banner_image.url}});">
+  <div class="mbr-overlay"></div>
+  <div class="container">
+    <h1 class="mbr-section-title mbr-fonts-style mbr-white align-center mbr-bold display-1">
+      <div style="font-size: 70px;">{{blogData.banner_section[0].banner_content.banner_gourp.heading}}</div>
+    </h1>
+  </div>
+</section>
+{% for blogList in blogData.modular_blocks %}
+
+<section class="features22 cid-qMPD3jJ5kk" id="features22-3">
+  <div class="container">
+    <div class="mbr-row mbr-justify-content-center">
+      <div class="mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12 resize vcenter">
+        <div class="img_wrapper vcenter">
+          <amp-img src="{{blogList.blog_list.image.url}}" alt="AMP Marketing website template" width="540" height="390"
+            layout="responsive">
+          </amp-img>
+        </div>
+      </div>
+      <div class="mbr-col-lg-6 mbr-col-md-12 resizeblock vcenter">
+        <div style="margin-top: 30px;">
+          <h2 class="tab-title mbr-fonts-style align-center display-5" style=" font-weight: 600; font-size: 25px; color: rgb(33, 37, 41); text-align: justify; margin-bottom: -3px;">
+            <a style="font-weight: bold; color: black;"
+              href="/blogs{{blogList.blog_list.cta.href}}">{{blogList.blog_list.heading}}</a>
+          </h2>
+          <p class="mbr-fonts-style align-center display-7" style="margin-bottom: -13px; text-align: justify; font-size: 20px; color: rgb(141, 138, 138);">{{blogList.blog_list.date}}</p>
+          <p class="mbr-fonts-style align-center display-7" style="margin-bottom: -13px; text-align: justify;">{{blogList.blog_list.description}}
+            <br>
+          </p>
+          <p class="mbr-fonts-style align-center display-7" style="text-align: justify;"><a
+              href="/blogs{{blogList.blog_list.cta.href}}">{{blogList.blog_list.cta.title}}</a></p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</section>
+{% endfor %}
+
+{% endblock %}
