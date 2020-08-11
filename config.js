@@ -1,20 +1,17 @@
+/**
+ *
+ * Below provide your stack credentials for performing sdk/api calls using Contentstack SDK
+ */
+
 module.exports = {
-  baseUrlContentStack: 'https://cdn.contentstack.io/v3',
   port: 4000,
-  apiKey: '', // provide your apikey here
-  accessToken: '', // provide  your delivery token here
-  env: '',
-  headerSection: {
-    headerContentTypeId: '', // mention the header content-type uid
-  },
-  footerSection: {
-    footerContentTypeId: '', // mention the footer content-type uid
-  },
-  homeSection: {
-    homeContentTypeId: '', // mention the home content-type uid
-  },
-  expressBlogSection: {
-    blogContentTypeId: '', // mention the blogs content-type uid
-    blogPageHeadingId: '', // mention the blogPageHeading content-type uid
+  apiKey: '', // your apiKey
+  accessToken: '', // delivery token
+  env: '', // publishing environment
+  contentTypeUid: {
+    headerContentTypeUid: '', // provide content-type uid for header
+    footerContentTypeUid: '', // provide content-type uid for footer
+    homeContentTypeUid: '', // provide content-type uid for home page
+    blogContentTypeUid: '', // provide content-type uid for blogs
   },
 };
