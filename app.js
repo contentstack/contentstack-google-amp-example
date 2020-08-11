@@ -9,7 +9,7 @@ const path = require('path');
 const configVars = require('./config');
 
 
-const PORT = process.env.PORT || 5000;
+const PORT = configVars.port || 5000;
 
 app.set('view engine', 'html');
 
