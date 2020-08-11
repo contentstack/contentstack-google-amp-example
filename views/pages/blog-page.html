@@ -1,0 +1,39 @@
+<!-- Blog content page html -->
+
+{% extends "pages/index.html" %} {% block content %}
+
+<section class="header11 cid-qMPCctt0uS mbr-fullscreen" id="header11-0"
+  style="background-image: url({{blogDetail.modular_blocks[0].blog_page.image.url}});">
+  <div class="mbr-overlay"></div>
+  <div class="container">
+    <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: white;">
+      <div style="font-size: 60px;">
+        {{blogDetail.modular_blocks[0].blog_page.heading}}
+      </div>
+    </h1>
+  </div>
+</section>
+
+<section class="features2 mbr-section cid-qMPCzM7s2W" id="features2-1">
+  <div class="container">
+    <div class="mbr-row mbr-justify-content-center">
+      <div>
+        <p class="mbr-fonts-style align-center display-7" style="
+            margin-bottom: -13px;
+            text-align: justify;
+            font-size: 20px;
+            color: rgb(141, 138, 138);
+          ">
+          <span>Date : </span>{{blogDetail.modular_blocks[0].blog_page.date}}
+        </p>
+        <p>{{blogDetail.modular_blocks[0].blog_page.description}}</p>
+        <div class="returnTag">
+          <a style="text-decoration: none; padding: 0px;"
+            href="{{blogDetail.modular_blocks[0].blog_page.cta.href}}">{{blogDetail.modular_blocks[0].blog_page.cta.title}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
