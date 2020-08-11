@@ -12,7 +12,7 @@ const configVars = require('../config');
 
 const Stack = Contentstack.Stack(configVars.apiKey, configVars.accessToken, configVars.env);
 
-// Below method will fetch & render home page
+// Below middleware router method will fetch & render home page
 
 router.get('/', (req, res) => {
   const Query = Stack.ContentType(configVars.contentTypeUid.homeContentTypeUid).Query();

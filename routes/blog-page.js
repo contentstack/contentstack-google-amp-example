@@ -14,11 +14,10 @@ const configVars = require('../config');
 
 const Stack = Contentstack.Stack(configVars.apiKey, configVars.accessToken, configVars.env);
 
-// Below router method will fetch & render a specific blog from modular block i.e blog_page
+// Below middleware router method will fetch & render a specific blog from modular block i.e blog_page
 
 router.get('/', (req, res) => {
   Stack.ContentType(configVars.contentTypeUid.blogContentTypeUid).Query()
-
     .toJSON()
     .find()
     .then((result) => {
