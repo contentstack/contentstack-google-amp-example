@@ -12,11 +12,10 @@ const configVars = require('../config');
 
 const Stack = Contentstack.Stack(configVars.apiKey, configVars.accessToken, configVars.env);
 
-// Below middleware will render the blog list page
+// Below middleware router will render the blog list page
 
 router.get('/', (req, res) => {
   Stack.ContentType(configVars.contentTypeUid.blogContentTypeUid).Query()
-
     .toJSON()
     .find()
     .then((result) => {
