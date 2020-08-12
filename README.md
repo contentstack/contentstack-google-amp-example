@@ -17,6 +17,10 @@ The following screenshots show the outcome of the sample app on desktop and mobi
 
 ![filter](https://user-images.githubusercontent.com/29656920/89883290-96125900-dbe5-11ea-892f-babc475dbc11.png)
 
+## Live Demo
+
+You can check the [live demo](https://contentstack-google-amp.herokuapp.com/) to get first-hand experience of the website.
+
 ## Documentation
 
 Read Contentstack [docs](https://www.contentstack.com/docs/)
