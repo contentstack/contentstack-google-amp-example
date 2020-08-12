@@ -9,7 +9,7 @@ Contentstack is a headless CMS with an API-first approach that puts content at t
 Google Accelerated Mobile Pages (Google AMP) is Google's back-end, open source HTML framework. It is specifically designed to help mobile-optimized content load instantly on all devices.
 AMP-HTML is nothing but HTML5 with a certain set of specifications with optimization banked by JavaScript.
 In this example, we have demonstrated how you can integrate Google AMP with Contentstack and create a sample website. 
-The in-depth guide discusses how the website's performances can be improved with Contentstack and Google AMP.
+The in-depth guide discusses how the website's performance can be improved with Contentstack and Google AMP.
 
 The following screenshots show the outcome of the sample app on desktop and mobile versions.
 
@@ -20,4 +20,5 @@ The following screenshots show the outcome of the sample app on desktop and mobi
 ## Documentation
 
 Read Contentstack [docs](https://www.contentstack.com/docs/)
+
 Read Guide [Contentstack Google AMP Example Guide](https://www.contentstack.com/docs/developers/how-to-guides/implementing-google-amp-on-contentstack-powered-websites/)
