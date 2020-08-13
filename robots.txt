@@ -1,9 +1,0 @@
-User-agent: *
-
-# Path (URLS not to crawl)
-
-Disallow: /blogs/contentstack-personalization
-Disallow: /blogs/contentstack-in-app-search
-Disallow: /blogs/contentstack-personalization
-
-
