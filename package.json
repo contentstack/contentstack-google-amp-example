@@ -20,7 +20,7 @@
     "async": "^3.2.0",
     "axios": "^0.19.2",
     "contentstack": "^3.10.1",
-    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-airbnb": "^19.0.4",
     "express": "^4.17.1",
     "nunjucks": "^3.2.1",
     "path": "^0.12.7"
